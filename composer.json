@@ -1,0 +1,26 @@
+{
+    "name": "zalluq/contactus",
+    "description": "This package is for the contact us page",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Altaf Ahmed",
+            "email": "altaf.ahmed@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bitfumes\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zalluq\\Contactus\\ContactusServiceProvider"
+            ]
+        }
+    }
+}
